@@ -178,8 +178,8 @@
             <button class="btn btn-copy" onclick="copyText(document.getElementById('promptOutput').innerText, this)">کپی کردن پرامپت 📋</button>
         </div>
         <footer>
-            <p>سر بزنید به سایت فروش فایل گرافیکی گرافیت پلاس</p>
-            <p>لینک سایت: <a href="https://graphit-plus.ir/" target="_blank" rel="noopener noreferrer">گرافیت پلاس</a></p>
+            <p>خرید و فروش فایل های گرافیکی</p>
+            <p>نشانی سایت: <a href="https://graphit-plus.ir/" target="_blank" rel="noopener noreferrer">گرافیت پلاس</a></p>
         </footer>
     </div>
     <script>
