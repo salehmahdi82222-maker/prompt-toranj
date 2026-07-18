@@ -195,7 +195,6 @@
 </head>
 <body>
     <canvas id="particle-canvas"></canvas>
-
     <!-- ========== ویو اصلی: استودیو ساخت پرامپت ========== -->
     <div id="main-view" class="view-container">
         <header>
