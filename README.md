@@ -96,7 +96,7 @@
             <label>۱. ایده یا موضوع اصلی تصویر</label>
             <input type="text" id="mainIdea" placeholder="مثال: یک گربه فضانورد در حال شناختن کهکشان">
             <label style="margin-top: 20px;">۲. توضیحات اضافه برای بهتر شدن پرامپت</label>
-            <textarea id="details" placeholder="مثال: گربه باید نارنجی باشد یا Gorbe bayad narenji bashad"></textarea>
+            <textarea id="details" placeholder="مثال: گربه باید نارنجی باشد"></textarea>
         </div>
         <div class="card">
             <label>۳. سبک تصویر (Style)</label>
