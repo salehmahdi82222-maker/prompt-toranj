@@ -298,50 +298,7 @@
             <button class="btn btn-copy" onclick="copyText(document.getElementById('promptOutput').innerText, this)">کپی کردن پرامپت 📋</button>
         </div>
     </div>
-
-    <!-- ========== ویو گالری پرامپت‌ها ========== -->
-    <div id="gallery-view" class="view-container hidden">
-        <header>
-            <a href="javascript:void(0)" class="back-btn" onclick="showView('main-view')">بازگشت ⬅️</a>
-            <h1 class="neon-text">گالری پرامپت‌ها</h1>
-            <p class="subtitle">پرامپت‌های تایید شده توسط کاربران سایت</p>
-        </header>
-        
-        <div id="gallery-grid"></div>
-
-        <!-- فوتر چشمک زن -->
-        <div class="footer-submit-container">
-            <button class="blink-btn" onclick="openSubmitModal()">➕ اضافه کردن پرامپت از سمت شما</button>
-        </div>
-    </div>
-
-    <!-- دکمه شناور دسترسی به گالری -->
-    <button id="gallery-float-btn" class="float-btn" onclick="showView('gallery-view')">
-        🖼️ گالری پرامپت‌ها
-    </button>
-
-    <!-- ========== مودال ارسال پرامپت جدید ========== -->
-    <div id="submit-modal" class="modal-overlay hidden">
-        <div class="modal-content">
-            <button class="modal-close" onclick="closeSubmitModal()">&times;</button>
-            <h2 style="margin-bottom: 20px; color: var(--accent-glow);">ارسال پرامپت برای پشتیبانی</h2>
-            <p style="margin-bottom: 15px; font-size: 0.9rem; opacity: 0.8;">پرامپت و عکس نمونه شما پس از تایید پشتیبانی در گالری قرار می‌گیرد.</p>
-            
-            <label>۱. عکس نمونه (در صورت تایید، در گالری نمایش داده می‌شود)</label>
-            <label class="file-upload-area" for="promptImage">
-                <i>📷</i>
-                <span id="file-name">برای انتخاب کلیک کنید</span>
-                <input type="file" id="promptImage" accept="image/*" onchange="updateFileName(this)">
-            </label>
-
-            <label>۲. متن پرامپت (انگلیسی)</label>
-            <textarea id="submittedPromptText" rows="5" placeholder="متن کامل پرامپت را اینجا وارد کنید..."></textarea>
-
-            <button class="btn btn-generate" style="margin-top: 20px;" onclick="submitPromptToSupport()">ارسال برای پشتیبانی 🚀</button>
-        </div>
-    </div>
-
-    <script>
+    
         // ================= سیستم ذرات معلق =================
         const canvas = document.getElementById('particle-canvas');
         const ctx = canvas.getContext('2d');
